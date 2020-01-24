@@ -1,8 +1,8 @@
-from Tkinter import *
+from tkinter import *
 from PIL import Image, ImageTk
 import threading
 
-window = Tk()
+window = tk()
 window.title("The Wildcard Guessing Game")
 window.geometry("750x500")
 currentLevel = 1
